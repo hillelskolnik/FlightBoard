@@ -15,7 +15,7 @@ namespace FlightBoardSystem
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            // Register Flight Service
+            // Register Flight Service 
             builder.Services.AddSingleton<IFlightService, FlightService>();
 
             // Configure CORS
